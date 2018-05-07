@@ -81,10 +81,10 @@
       </li>
     </ul>
     <ul>
-      <a>
-        <router-link :to="{ path: '/loginpageview'}">
+      <a href="/#/loginpageview">
+        <!--router-link :to="{ path: '/loginpageview'}"-->
         login-view
-        </router-link>
+        <!--/router-link-->
       </a>
     </ul>
   </div>
