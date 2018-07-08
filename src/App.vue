@@ -12,14 +12,16 @@ export default {
 </script>
 
 <style>
+@import url("../static/styles/myStyle.css");
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 150px;
+  margin-top: 175px;
 }
+/*
 .flex-container {
     flex-direction: column;
     background-color: #fafafa;
@@ -83,4 +85,5 @@ export default {
     margin: 5px 1px 3px 0px;
     border: 1px solid rgba(81, 203, 238, 1);
 }
+*/
 </style>

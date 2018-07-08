@@ -3,7 +3,7 @@
     <div>
       <h3>Forgot Password</h3>
       <h5>Enter username to reset password</h5>
-      <input type="text" placeholder="username"></br>
+      <input class="textView" type="text" placeholder="username"></br>
       <router-link :to="{ path: '/loginpageview'}">
       <input class = "linkView" type="link" value="Return back">
       </router-link>

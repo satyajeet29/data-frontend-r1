@@ -1,3 +1,8 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 .flex-container {
     flex-direction: column;
     background-color: #fafafa;
@@ -9,7 +14,7 @@
     padding-bottom: 20px;
     padding-right: 10px;
 }
-.flex-container > div > input[type=text]{
+.textView {
     width: 300px;
     height: 20px;
 }
@@ -32,7 +37,7 @@
     cursor: pointer;
 }
 .linkView{
-    width:  150px;
+    width:  175px;
     height: 15px;
     border: 0px;
     outline: none;
@@ -46,7 +51,7 @@
     background-color: rgba(0,0,0,0);
     cursor: pointer;
 }
-.flex-container > div > input[type=text], textarea {
+.textView , textarea {
   @include transition(all 0.30s ease-in-out);
     outline: none;
     font-size: 15px;
@@ -55,7 +60,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 20px;
 }
-.flex-container > div > input[type=text]:focus, textarea:focus {
+.textView :focus, textarea:focus {
   @include box-shadow(0 0 5px rgba(81, 203, 238, 1));
     padding: 3px 0px 5px 10px;
     margin: 5px 1px 3px 0px;
